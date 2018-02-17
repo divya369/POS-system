@@ -1,0 +1,89 @@
+2018-02-16T21:17:50.094+0530 I CONTROL  [initandlisten] MongoDB starting : pid=35466 port=27017 dbpath=/Users/divyapatel/Documents/PointOnSale_Workspace/monogodb_resides/db1 64-bit host=Divyas-MacBook-Pro.local
+2018-02-16T21:17:50.094+0530 I CONTROL  [initandlisten] db version v3.6.2
+2018-02-16T21:17:50.095+0530 I CONTROL  [initandlisten] git version: 489d177dbd0f0420a8ca04d39fd78d0a2c539420
+2018-02-16T21:17:50.095+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2n  7 Dec 2017
+2018-02-16T21:17:50.095+0530 I CONTROL  [initandlisten] allocator: system
+2018-02-16T21:17:50.095+0530 I CONTROL  [initandlisten] modules: none
+2018-02-16T21:17:50.095+0530 I CONTROL  [initandlisten] build environment:
+2018-02-16T21:17:50.097+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-16T21:17:50.097+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-16T21:17:50.097+0530 I CONTROL  [initandlisten] options: { config: "/usr/local/etc/mongod.conf", net: { bindIp: "127.0.0.1" }, storage: { dbPath: "/Users/divyapatel/Documents/PointOnSale_Workspace/monogodb_resides/db1" }, systemLog: { destination: "file", logAppend: true, path: "/Users/divyapatel/Documents/PointOnSale_Workspace/monogodb_resides/mongo.log" } }
+2018-02-16T21:17:50.098+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-16T21:17:50.329+0530 I CONTROL  [initandlisten] 
+2018-02-16T21:17:50.329+0530 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-02-16T21:17:50.329+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-02-16T21:17:50.329+0530 I CONTROL  [initandlisten] 
+2018-02-16T21:17:50.335+0530 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 7159287f-f572-4f1b-a958-22393bf1b022
+2018-02-16T21:17:50.382+0530 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2018-02-16T21:17:50.388+0530 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 56a165e6-9284-4b2d-9fa1-03026f635ac8
+2018-02-16T21:17:50.433+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/divyapatel/Documents/PointOnSale_Workspace/monogodb_resides/db1/diagnostic.data'
+2018-02-16T21:17:50.435+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-16T21:18:31.141+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51821 #1 (1 connection now open)
+2018-02-16T21:18:31.141+0530 I NETWORK  [conn1] received client metadata from 127.0.0.1:51821 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.2" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "17.3.0" } }
+2018-02-16T21:18:32.375+0530 I NETWORK  [conn1] end connection 127.0.0.1:51821 (0 connections now open)
+2018-02-16T21:21:12.070+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51852 #2 (1 connection now open)
+2018-02-16T21:21:12.074+0530 I NETWORK  [conn2] received client metadata from 127.0.0.1:51852 conn: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.3.0" }, platform: "Node.js v7.4.0, LE, mongodb-core: 2.1.17" }
+2018-02-16T21:21:12.169+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51853 #3 (2 connections now open)
+2018-02-16T21:21:12.193+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51854 #4 (3 connections now open)
+2018-02-16T21:21:26.237+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51863 #5 (4 connections now open)
+2018-02-16T21:21:26.239+0530 I NETWORK  [conn5] received client metadata from 127.0.0.1:51863 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:21:26.243+0530 I NETWORK  [conn5] end connection 127.0.0.1:51863 (3 connections now open)
+2018-02-16T21:21:43.481+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51876 #6 (4 connections now open)
+2018-02-16T21:21:43.481+0530 I NETWORK  [conn6] received client metadata from 127.0.0.1:51876 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.2" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "17.3.0" } }
+2018-02-16T21:22:50.435+0530 I STORAGE  [thread7] createCollection: config.system.sessions with generated UUID: 42697249-7dc5-4195-8263-6b1fac413bef
+2018-02-16T21:22:50.543+0530 I INDEX    [thread7] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2018-02-16T21:22:50.547+0530 I INDEX    [thread7] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-02-16T21:22:50.558+0530 I INDEX    [thread7] build index done.  scanned 0 total records. 0 secs
+2018-02-16T21:22:50.558+0530 I COMMAND  [thread7] command config.$cmd command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:98 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_msg 123ms
+2018-02-16T21:23:17.231+0530 I STORAGE  [conn6] createCollection: pos.scanner with generated UUID: b64947d1-3dd8-45c6-959d-5b5d3e3d9a33
+2018-02-16T21:23:22.831+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51877 #7 (5 connections now open)
+2018-02-16T21:23:29.717+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51878 #8 (6 connections now open)
+2018-02-16T21:24:06.562+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51881 #9 (7 connections now open)
+2018-02-16T21:24:06.562+0530 I NETWORK  [conn9] received client metadata from 127.0.0.1:51881 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:24:06.565+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51882 #10 (8 connections now open)
+2018-02-16T21:24:06.565+0530 I NETWORK  [conn10] received client metadata from 127.0.0.1:51882 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:24:06.566+0530 I STORAGE  [conn10] createCollection: pos.posScanner with generated UUID: e859e30e-5937-4102-ac7b-2357f2584c80
+2018-02-16T21:24:06.619+0530 I NETWORK  [conn9] end connection 127.0.0.1:51881 (7 connections now open)
+2018-02-16T21:24:06.619+0530 I NETWORK  [conn10] end connection 127.0.0.1:51882 (6 connections now open)
+2018-02-16T21:26:18.874+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51893 #11 (7 connections now open)
+2018-02-16T21:26:18.874+0530 I NETWORK  [conn11] received client metadata from 127.0.0.1:51893 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:26:18.877+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51894 #12 (8 connections now open)
+2018-02-16T21:26:18.877+0530 I NETWORK  [conn12] received client metadata from 127.0.0.1:51894 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:26:19.384+0530 I NETWORK  [conn11] end connection 127.0.0.1:51893 (7 connections now open)
+2018-02-16T21:26:19.384+0530 I NETWORK  [conn12] end connection 127.0.0.1:51894 (6 connections now open)
+2018-02-16T21:26:44.130+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51901 #13 (7 connections now open)
+2018-02-16T21:26:44.131+0530 I NETWORK  [conn13] received client metadata from 127.0.0.1:51901 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:26:44.132+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51902 #14 (8 connections now open)
+2018-02-16T21:26:44.132+0530 I NETWORK  [conn14] received client metadata from 127.0.0.1:51902 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:26:44.133+0530 I NETWORK  [conn13] end connection 127.0.0.1:51901 (7 connections now open)
+2018-02-16T21:26:44.133+0530 I NETWORK  [conn14] end connection 127.0.0.1:51902 (6 connections now open)
+2018-02-16T21:27:20.929+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51905 #15 (7 connections now open)
+2018-02-16T21:27:20.929+0530 I NETWORK  [conn15] received client metadata from 127.0.0.1:51905 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:27:20.930+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51906 #16 (8 connections now open)
+2018-02-16T21:27:20.930+0530 I NETWORK  [conn16] received client metadata from 127.0.0.1:51906 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:27:20.931+0530 I STORAGE  [conn16] createCollection: pos1.posScanner with generated UUID: 0bb3191f-4ae8-4e96-8364-710bef1cd474
+2018-02-16T21:27:20.997+0530 I NETWORK  [conn16] end connection 127.0.0.1:51906 (7 connections now open)
+2018-02-16T21:27:20.997+0530 I NETWORK  [conn15] end connection 127.0.0.1:51905 (6 connections now open)
+2018-02-16T21:27:36.558+0530 I STORAGE  [conn6] createCollection: divya.scanner with generated UUID: b1cd9a88-aab3-4e43-8346-830ca94922d7
+2018-02-16T21:34:21.583+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51966 #17 (7 connections now open)
+2018-02-16T21:34:21.584+0530 I NETWORK  [conn17] received client metadata from 127.0.0.1:51966 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:34:21.585+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51967 #18 (8 connections now open)
+2018-02-16T21:34:21.585+0530 I NETWORK  [conn18] received client metadata from 127.0.0.1:51967 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:34:21.585+0530 I STORAGE  [conn18] createCollection: pos369.posScanner with generated UUID: 559e0c67-b208-4810-8f79-529eae34b4d2
+2018-02-16T21:34:21.655+0530 I NETWORK  [conn18] end connection 127.0.0.1:51967 (7 connections now open)
+2018-02-16T21:34:21.655+0530 I NETWORK  [conn17] end connection 127.0.0.1:51966 (6 connections now open)
+2018-02-16T21:34:52.492+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51978 #19 (7 connections now open)
+2018-02-16T21:34:52.492+0530 I NETWORK  [conn19] received client metadata from 127.0.0.1:51978 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:34:52.493+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:51979 #20 (8 connections now open)
+2018-02-16T21:34:52.493+0530 I NETWORK  [conn20] received client metadata from 127.0.0.1:51979 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.2" }, platform: "CPython 3.6.3.final.0" }
+2018-02-16T21:34:52.500+0530 I NETWORK  [conn20] end connection 127.0.0.1:51979 (7 connections now open)
+2018-02-16T21:34:52.500+0530 I NETWORK  [conn19] end connection 127.0.0.1:51978 (6 connections now open)
+2018-02-16T21:43:13.716+0530 I NETWORK  [conn6] end connection 127.0.0.1:51876 (5 connections now open)
+2018-02-17T03:41:50.952+0530 I NETWORK  [conn4] end connection 127.0.0.1:51854 (3 connections now open)
+2018-02-17T03:41:50.952+0530 I NETWORK  [conn8] end connection 127.0.0.1:51878 (2 connections now open)
+2018-02-17T03:41:50.952+0530 I NETWORK  [conn7] end connection 127.0.0.1:51877 (1 connection now open)
+2018-02-17T03:41:50.952+0530 I NETWORK  [conn3] end connection 127.0.0.1:51853 (4 connections now open)
+2018-02-17T03:41:50.952+0530 I NETWORK  [conn2] end connection 127.0.0.1:51852 (0 connections now open)
+2018-02-17T12:13:44.916+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:58389 #21 (1 connection now open)
+2018-02-17T12:13:44.923+0530 I NETWORK  [conn21] received client metadata from 127.0.0.1:58389 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.2" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "17.3.0" } }
+2018-02-17T12:13:46.409+0530 I NETWORK  [conn21] end connection 127.0.0.1:58389 (0 connections now open)

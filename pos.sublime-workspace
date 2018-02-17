@@ -1,0 +1,287 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ge",
+				"get"
+			],
+			[
+				"t",
+				"thead\tTag"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"o",
+				"ol\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"pro",
+				"procees_no"
+			],
+			[
+				"ex",
+				"Exit"
+			],
+			[
+				"mag",
+				"magenta"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"php",
+				"php"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/divyapatel/Web development"
+	],
+	"file_history":
+	[
+		"/Users/divyapatel/Documents/PointOnSale_Workspace/home.html",
+		"/Users/divyapatel/Web development/Learning Html.sublime-project",
+		"/Users/divyapatel/Web development/HTML/tp.html",
+		"/Users/divyapatel/Documents/Advanced_flask_project/monogodb_resides/mongod.conf",
+		"/Users/divyapatel/Documents/Advanced_flask_project/flask_env/mongod.conf",
+		"/Users/divyapatel/Documents/PointOnSale_Workspace/PointOnSaleSystem/pointOnSale_env/mongod.conf",
+		"/Users/divyapatel/Documents/Point On Sale Workspace/mongod.conf",
+		"/Users/divyapatel/Desktop/mongod.conf",
+		"/Users/divyapatel/Web development/HTML/tables.html",
+		"/Users/divyapatel/Web development/HTML/firstpage.html",
+		"/Users/divyapatel/.hyper.js",
+		"/Users/divyapatel/Desktop/demo.sh",
+		"/Users/divyapatel/Web development/HTML/pokemon.html",
+		"/Users/divyapatel/Web development/HTML/1_practise-2.html",
+		"/Users/divyapatel/Web development/HTML/1_practise-1.html",
+		"/Users/divyapatel/Web development/HTML/demo.html",
+		"/Users/divyapatel/Desktop/Pluralsight-database/mongo-server.log",
+		"/Users/divyapatel/Desktop/prime.sh",
+		"/Users/divyapatel/Desktop/factorial.sh",
+		"/Users/divyapatel/Desktop/0s_5",
+		"/Users/divyapatel/Desktop/5_1.sh",
+		"/Users/divyapatel/Desktop/5.sh",
+		"/Users/divyapatel/Documents/Programming/Pluralsight/database/Introduction to MongoDB/mongodb-introduction/4-mongodb-introduction-m3-exercise-files/demos/saving-data-after.js",
+		"/Users/divyapatel/Desktop/demo1.sh",
+		"/Users/divyapatel/Desktop/copy.sh",
+		"/Users/divyapatel/package-lock.json",
+		"/Users/divyapatel/Desktop/tp.sh",
+		"/Users/divyapatel/Desktop/deep-neural-network-syllabus-parsed.json",
+		"/Users/divyapatel/Desktop/GDDIndia_USB/Codelabs_Source/workbox-lab/project/server.js",
+		"/Users/divyapatel/Desktop/smit.html",
+		"/Applications/XAMPP/xamppfiles/phpmyadmin/vendor/phpspec/prophecy/spec/Prophecy/Argument/Token/LogicalNotTokenSpec.php",
+		"/Users/divyapatel/Downloads/leave_managment_system.sql",
+		"/Users/divyapatel/Downloads/DBMS_OEP.sql",
+		"/Users/divyapatel/Desktop/Web design/project/HTML responsive/style.css",
+		"/Users/divyapatel/Desktop/Web design/project/HTML responsive/index.html",
+		"/Users/divyapatel/DosBox/data structure 1.1.c",
+		"/Applications/XAMPP/xamppfiles/htdocs/myfirstfile.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Myfirstfile/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/divyapatel/Web development",
+			"/Users/divyapatel/Desktop/GDDIndia_USB/Codelabs_Source/workbox-lab/project"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"https://app.pluralsight.com/library/courses/real-time-web-nodejs/table-of-contents"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "/Users/divyapatel/Web development/Learning Html.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Web development/HTML/1_practise-1.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

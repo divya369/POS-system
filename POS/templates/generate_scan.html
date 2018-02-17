@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generae or Scan the Barcode</title>
+</head>
+<body>
+    <h3>Here you will decide wheather to generate or Scan the barcode</h3>
+    <p>
+        <label for="generate">Genearate Barcode</label>
+        <a href="{{ url_for('generate') }}">
+            <button>Generate</button>
+        </a>
+        <label for="scan">Scan Barcode</label>
+        <a href="{{ url_for('scan') }}">
+            <input id="scan" value="Scan" name="scan" type="button">
+        </a>
+    </p>
+</body>
+</html>

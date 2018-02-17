@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin add/remove product</title>
+</head>
+<body>
+    <h3>Admin adds or removes or updates product info.</h3>
+    <p>
+        <label for="add_product">Add New product</label>
+        <a href="{{ url_for('generateScan') }}">
+            <input id="add_product" type="button" name="add_product" value="Add product">
+        </a>
+    </p>
+    <p>
+        <label for="update_product">Update product info</label>
+        <a href="{{ url_for('update_product') }}">
+            <input id="update_product" type="button" name="update_product" value="Update Product">
+        </a>
+    </p>
+    <p>
+        <label for="remove_product">Remove old product</label>
+        <a href="{{ url_for('remove_product') }}">
+            <input id="remove_product" type="button" name="remove_product" value="Remove Product">
+        </a>
+    </p>
+    <p>
+        <label for="add_user">Add New User</label>
+        <a href="{{ url_for('add_user') }}">
+            <input id="add_user" type="button" name="add_user" value="Add User">
+        </a>
+    </p>
+    <p>
+        <label for="remove_user">Remove User</label>
+        <a href="{{ url_for('remove_user') }}">
+            <input id="remove_user" type="button" name="remove_user" value="Remove User">
+        </a>
+    </p>
+</body>
+</html>
+
