@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>data transfer</title>
+</head>
+<body>
+    <h3>This just to transfer data</h3>
+    <form method="post" action="{{ url_for('data') }}">
+        <input type="text" name="projectFilePath">
+        <input type="submit">
+    </form>
+</body>
+</html>

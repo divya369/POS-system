@@ -5,25 +5,28 @@
     <title>Scan</title>
 </head>
 <body>
+    <h1>ફોન્ટ પસંદ</h1>
     <h3>This is where you will scan the barcode</h3>
-    <p>
-        <label for="barcode">Barcode : </label>
-        <input id="barcode" placeholder="Scan barcode" type="text">
-    </p>
-    <p>
-        <label for="product_id">Product ID : </label>
-        <input id="product_id" type="number" placeholder="Product ID" name="product_id">
-    </p>
-    <p>
-        <label for="product_name">Name of product : </label>
-        <input id="product_name" type="text" placeholder="Name of product" name="product_name">
-    </p>
-    <p>
-        <label for="price">Price : </label>
-        <input id="price" type="number" placeholder="Price" name="price">
-    </p>
-    <p>
-        <button>Submit</button>
-    </p>
+    <form method="post" action="{{ url_for('entry_page') }}">
+        <p>
+        <label for="barcode">Barcode : ગુજરાતી :</label>
+        <input id="barcode" placeholder="Scan barcode" type="text" name="barcode">
+        </p>
+        <p>
+            <label for="product_id">Product ID : </label>
+            <input id="product_id" type="number" placeholder="Product ID" name="productID">
+        </p>
+        <p>
+            <label for="product_name">Name of product : </label>
+            <input id="product_name" type="text" placeholder="Name of product" name="productName">
+        </p>
+        <p>
+            <label for="price">Price : </label>
+            <input id="price" type="number" placeholder="Price" name="price">
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
 </body>
 </html>

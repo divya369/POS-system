@@ -1,11 +1,16 @@
 from flask import Flask
+import sys
 from pymongo import MongoClient
 from flask import request, redirect, render_template
 
 app = Flask(__name__)
 
 
-@app.route('/')
+client = MongoClient('localhost', 27017)
+mydatabase = client.pos369
+
+
+@app.route('/home')
 def home():
     return render_template('home.html')
 
@@ -63,25 +68,59 @@ def generate():
 @app.route('/scan')
 def scan():
     return render_template('scan.html')
+"""
+    if request.method == 'POST':
+        barcodetp = request.form['barcode']
+        productIDtp = request.form['productID']
+        productNametp = request.form['productName']
+        pricetp = request.form['price']
+        record = {
+            'barcode': barcodetp,
+            'productID': productIDtp,
+            'productName': productNametp,
+            'price': pricetp
+        }
+        mydatabase.posScanner.insert(record)
+"""
+   
+
+@app.route('/entry', methods=['GET', 'POST'])
+def entry_page():
+    if request.method == 'POST':
+        barcodetp = request.form['barcode']
+        productIDtp = request.form['productID']
+        productNametp = request.form['productName']
+        pricetp = request.form['price']
+        record = {
+            'barcode': barcodetp,
+            'productID': productIDtp,
+            'productName': productNametp,
+            'price': pricetp
+        }
+        mydatabase.posScanner.insert(record)
+        return "Success"
+    else:
+        return render_template('home.html')
 
 
 if __name__ == '__main__':
     app.run(debug=True)
 
-
 """
 
-
-    client = MongoClient('localhost', 27017)
-    mydatabase = client.pos369
-    scanner = mydatabase.posScanner
-
-    record = {
-        'title': 'abc',
-        'description': 'xyz',
-        'tags': ['mongodb', 'database', 'NoSQL'],
-        'viewers': 369
-    }
-    rec = mydatabase.posScanner.insert(record)
+flag = 0
+    if flag == 0:
+        flag = 1
+        client = MongoClient('localhost', 27017)
+        mydatabase = client.pos369
+    #    scanner = mydatabase.posScanner
+        record1 = {
+            'title': 'abc',
+            'description': 'xyz',
+            'tags': ['mongodb', 'database', 'NoSQL'],
+            'viewers': 369
+        }
+        rec = mydatabase.posScanner.insert(record1)
+        rec1 = mydatabase.posScanner369.insert(record1)
 
 """
